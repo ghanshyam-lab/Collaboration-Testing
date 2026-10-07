@@ -1,0 +1,17 @@
+{
+  "name": "presenton-collaboration-stress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --project=smoke",
+    "test:stress": "playwright test --project=stress",
+    "test:performance": "playwright test --project=performance",
+    "test:editing": "playwright test --project=editing",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.1"
+  }
+}
